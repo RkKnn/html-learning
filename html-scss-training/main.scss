@@ -85,25 +85,10 @@ a:hover { text-decoration: underline; }
   margin: 0 auto;
 }
 
-h1 {
-  font-family: 'Bitter', serif;
-  font-size: 36px;
-  border-bottom: 1px solid #cccccc;
-}
-
-h2 {
-  font-family: 'Bitter', serif;
-  font-size: 24px;
-}
-
 .icon:before {
   content: "";
   padding-right: 10px;
   border-left: 7px solid #9cb4a4;
-}
-
-section {
-  margin-bottom: 35px;
 }
 
 table {
@@ -132,12 +117,6 @@ table {
   }
 }
 
-.main {
-  width: 700px;
-  margin: 0 10px;
-  float: left;
-}
-
 .sidebar {
   width: 200px;
   margin: 0 10px 0 30px;
@@ -145,6 +124,8 @@ table {
   font-family: 'Bitter', serif;
 
   &__title {
+    font-family: 'Bitter', serif;
+    font-size: 24px;
     margin-bottom: 10px;
   }
 
@@ -158,8 +139,27 @@ table {
   }
 }
 
-.link-img {
-  &__background:hover {
+.section {
+  width: 700px;
+  margin: 0 10px;
+  float: left;
+
+  &__title {
+    font-family: 'Bitter', serif;
+    font-size: 36px;
+    border-bottom: 1px solid #cccccc;
+  }
+}
+
+.section-item {
+  margin-bottom: 35px;
+
+  &__title {
+    font-family: 'Bitter', serif;
+    font-size: 24px;
+  }
+
+  &__link:hover {
     opacity: 0.8;
   }
 }
