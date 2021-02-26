@@ -1,1 +1,97 @@
 @charset "utf-8";
+
+.page {
+    padding: 0px;
+    font-size: 15px;
+    color: #333333;
+    line-height: 2;
+
+    background-image: url("./bg-portfolio.jpg");
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-position: top, center;
+    background-repeat: no-repeat;
+
+    &__content {
+        display: flex;
+        padding: 10px 100px;
+        background-color: white;
+        height: 100%;
+
+        margin-top: 50px;
+    }
+}
+
+.main {
+    width: 70%;
+    padding: 10px;
+    border: solid;
+
+    &__title {
+
+    }
+}
+
+.section {
+    &__img {
+        width: 100%;
+    }
+
+    &__link {
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+}
+
+.side {
+    flex-grow: 1;
+    border: solid;
+}
+
+.header {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    &__logo {
+        padding-left: 60px;
+        float: left;
+        font-size: 80px;
+    }
+}
+
+.navigation {
+    overflow: hidden;
+    padding-top: 60px;
+
+    &__list {
+        float: right;
+    }
+
+    &__item {
+        float: left;
+        margin-right: 20px;
+        list-style: none;
+        font-size: 20px;
+    }
+
+    &__link {
+        color: white;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.footer {
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+    background-color: #767671;
+
+    &__copyright {
+        font-size: 12px;
+    }
+}
