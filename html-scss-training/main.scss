@@ -2,6 +2,7 @@
 
 .page {
     padding: 0px;
+    margin: 0px;
     font-size: 15px;
     color: #333333;
     line-height: 2;
@@ -24,11 +25,10 @@
 
 .main {
     width: 70%;
-    padding: 10px;
-    border: solid;
+    padding: 20px;
 
     &__title {
-
+        border-bottom: 1px solid #cccccc;
     }
 }
 
@@ -42,11 +42,34 @@
             opacity: 0.8;
         }
     }
+
+    &__message {
+        margin-bottom: 40px;
+    }
+
+    &__separator {
+        border: 1px dashed #cccccc;
+        width: 50%;
+        margin-bottom: 60px;
+    }
 }
 
 .side {
+    padding: 20px;
     flex-grow: 1;
-    border: solid;
+
+    &__title {
+        margin-bottom: 0px;
+    }
+
+    &__list {
+        margin-top: 0px;
+        margin-bottom: 60px;
+        padding-left: 30px;
+    }
+
+    &__item {
+    }
 }
 
 .header {
