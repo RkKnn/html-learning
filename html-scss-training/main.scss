@@ -65,11 +65,12 @@ a:hover { text-decoration: underline; }
   }
 }
 
+.content {
+  width: 960px;
+  margin: 0 auto;
+}
+
 .portfolio {
-  &__content {
-    width: 960px;
-    margin: 0 auto;
-  }
 
   &__background {
     clear: both;
