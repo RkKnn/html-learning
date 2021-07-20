@@ -6,36 +6,53 @@
     <title>Portfolio｜風景写真家「SNAPPERS」</title>
     <link href="main.css" rel="stylesheet">
   </head>
-  <body id="portfolio">
+  <body class="portfolio">
 
     <!-- header始まり -->
-    <header>
-      <nav>
-        <ul class="global-nav">
-          <li><a href="">menu1</a></li>
-          <li><a href="">menu2</a></li>
-          <li><a href="">menu3</a></li>
+    <header class="header">
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a class="navigation__link" href="">menu1</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">menu2</a>
+          </li>
+          <li class="navigation__item">
+            <a class="navigation__link" href="">menu3</a>
+          </li>
         </ul>
       </nav>
     </header>
     <!-- header終わり -->
-    <div class="test"></div>
+
     <!-- wrap始まり -->
-    <div id="wrap" class="clearfix">
+    <div class="portfolio__background">
       <div class="content">
-        <div class="main">
-          <h1>Section1</h1>
+
+        <div class="section">
+          <h1 class="section__title">Section1</h1>
           <p>ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ</p>
-          <section>
-            <h2><a href=""><img src="portfolio-photo.jpg" alt="PHOTOGRAPH"></a></h2>
+
+          <section class="section-item">
+            <h2 class="section-item__title">
+              <a href="">
+                <img class="section-item__link" src="portfolio-photo.jpg" alt="PHOTOGRAPH">
+              </a>
+            </h2>
             <p>
             ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
             ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
             <a href="">詳しくみる ≫</a>
             </p>
           </section>
-          <section>
-            <h2><a href="" ><img src="portfolio-video.jpg" alt="VIDEO"></a></h2>
+
+          <section class="section-item">
+            <h2 class="section-item__title">
+              <a href="">
+                <img class="section-item__link" src="portfolio-video.jpg" alt="VIDEO">
+              </a>
+            </h2>
             <p>
             ほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
             ほげふがほげふほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
@@ -43,13 +60,14 @@
             </p>
           </section>
         </div>
+
         <aside class="sidebar">
           <section>
-            <h2>Sidebar</h2>
-            <ul>
-              <li><a href="">リスト1</a></li>
-              <li><a href="">リスト2</a></li>
-              <li><a href="">りスト3</a></li>
+            <h2 class="sidebar__title">Sidebar</h2>
+            <ul class="sidebar__list">
+              <li><a class="sidebar__link" href="">リスト1</a></li>
+              <li><a class="sidebar__link" href="">リスト2</a></li>
+              <li><a class="sidebar__link" href="">りスト3</a></li>
             </ul>
           </section>
         </aside>
@@ -58,8 +76,8 @@
     <!-- wrap終わり -->
 
     <!-- footer始まり -->
-    <footer>
-      <small>(C)2020 Nextbeat</small>
+    <footer class="nb-footer">
+      <small class="nb-footer__copyright">(C)2020 Nextbeat</small>
     </footer>
     <!-- footer終わり -->
 
